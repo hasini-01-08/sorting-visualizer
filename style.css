@@ -1,14 +1,57 @@
-.bar {
-  width: 30px;
-  margin: 2px;
-  background-color: blue;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+body {
+  text-align: center;
+  font-family: Arial;
+  background-color: #111;
   color: white;
-  font-size: 12px;
 }
 
-.label {
+h1 {
+  margin-top: 20px;
+}
+
+.controls {
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+#array-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 350px;
+  margin-top: 30px;
+}
+
+.bar {
+  width: 30px;
+  margin: 3px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.bar span {
   margin-bottom: 5px;
+}
+
+#complexity {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #00ffcc;
 }
