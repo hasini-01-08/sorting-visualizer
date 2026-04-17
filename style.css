@@ -1,22 +1,14 @@
-body {
-  text-align: center;
-  font-family: Arial;
-}
-
-#array-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  height: 300px;
-  margin-top: 20px;
-}
-
 .bar {
-  width: 20px;
+  width: 30px;
   margin: 2px;
   background-color: blue;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
 }
 
-.controls {
-  margin: 20px;
+.label {
+  margin-bottom: 5px;
 }
