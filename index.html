@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Sorting Visualizer</h1>
+
+<div class="controls">
+  <button onclick="generateArray()">Generate Array</button>
+  <button onclick="startBubble()">Bubble Sort</button>
+  <button onclick="nextStep()">Next</button>
+  <button onclick="prevStep()">Previous</button>
+
+  <label>Speed:</label>
+  <input type="range" id="speed" min="1" max="100">
+</div>
+
+<div id="array-container"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
